@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SIP-Türklingel verbinden",
+        "description": "Lege zuerst ein eigenes IP-Telefon in der FRITZ!Box an.",
+        "data": {
+          "registrar": "FRITZ!Box / Registrar",
+          "registrar_port": "Registrar-Port",
+          "username": "SIP-Benutzer",
+          "password": "SIP-Kennwort",
+          "listen_port": "Lokaler UDP-Port",
+          "device_name": "Gerätename"
+        }
+      }
+    },
+    "error": {
+      "cannot_resolve": "Der Registrar-Hostname kann nicht aufgelöst werden",
+      "listen_port_in_use": "Dieser lokale UDP-Port wird bereits von einem anderen SIP-Türklingel-Eintrag verwendet"
+    },
+    "abort": {
+      "already_configured": "Dieses SIP-Konto ist bereits eingerichtet"
+    }
+  }
+}

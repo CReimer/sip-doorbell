@@ -1,0 +1,12 @@
+{
+  "domain": "sip_doorbell",
+  "name": "SIP Doorbell",
+  "codeowners": ["@CReimer"],
+  "config_flow": true,
+  "documentation": "https://github.com/CReimer/sip-doorbell",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/CReimer/sip-doorbell/issues",
+  "requirements": [],
+  "version": "0.1.1"
+}

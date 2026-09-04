@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect a SIP doorbell",
+        "description": "Create a dedicated IP telephone in the FRITZ!Box first.",
+        "data": {
+          "registrar": "FRITZ!Box / registrar",
+          "registrar_port": "Registrar port",
+          "username": "SIP username",
+          "password": "SIP password",
+          "listen_port": "Local UDP listen port",
+          "device_name": "Device name"
+        }
+      }
+    },
+    "error": {
+      "cannot_resolve": "The registrar hostname cannot be resolved",
+      "listen_port_in_use": "This local UDP listen port is already used by another SIP Doorbell entry"
+    },
+    "abort": {
+      "already_configured": "This SIP account is already configured"
+    }
+  }
+}
